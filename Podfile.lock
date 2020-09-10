@@ -1,0 +1,16 @@
+PODS:
+  - CereSDK (0.0.2)
+
+DEPENDENCIES:
+  - CereSDK (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cere-io/sdk-ios.git:
+    - CereSDK
+
+SPEC CHECKSUMS:
+  CereSDK: bc24cbcb608d85416c081067d86fac4cbb634ee6
+
+PODFILE CHECKSUM: 5bbaaee6f2f6eb84c153e99f4f8e49bbf7039e87
+
+COCOAPODS: 1.9.3
