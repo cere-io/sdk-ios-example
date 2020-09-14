@@ -8,6 +8,6 @@ target 'CereSdkExampleApp' do
   use_frameworks!
 
   # Pods for CereSdkExampleApp
-  pod 'CereSDK', '~> 0.0.2'
-  
+  #pod 'CereSDK', '~> 0.0.2'
+  pod 'CereSDK', :path => '/Users/pavel_viarkhouski/Cere/cere-io/sdk-ios/CereSDK'
 end

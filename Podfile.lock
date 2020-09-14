@@ -2,15 +2,15 @@ PODS:
   - CereSDK (0.0.2)
 
 DEPENDENCIES:
-  - CereSDK (~> 0.0.1)
+  - CereSDK (from `/Users/pavel_viarkhouski/Cere/cere-io/sdk-ios/CereSDK`)
 
-SPEC REPOS:
-  https://github.com/cere-io/sdk-ios.git:
-    - CereSDK
+EXTERNAL SOURCES:
+  CereSDK:
+    :path: "/Users/pavel_viarkhouski/Cere/cere-io/sdk-ios/CereSDK"
 
 SPEC CHECKSUMS:
-  CereSDK: bc24cbcb608d85416c081067d86fac4cbb634ee6
+  CereSDK: 1943463a10a93284a7eadc2df9854e8931589069
 
-PODFILE CHECKSUM: 5bbaaee6f2f6eb84c153e99f4f8e49bbf7039e87
+PODFILE CHECKSUM: 94e0fe69bcf76381a66a13c730707682dfce3689
 
 COCOAPODS: 1.9.3
