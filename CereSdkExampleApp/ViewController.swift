@@ -10,18 +10,28 @@ import UIKit
 import CereSDK
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var sendEventBtn: UIButton!
+    var sdk: CereSDK?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let sdk = CereSDK()
-        sdk.initSDK(appId: "243", integrationPartnerUserId: "userID", controller: self)
+        sdk = CereSDK()
+        sdk!.initSDK(appId: "242", integrationPartnerUserId: "userID", controller: self)
+        sdk!.setDisplay(left: 5, top: 5, width: 90, height: 90)
         
-        _ = sdk.onInitializationFinished {
-            sdk.sendEvent(eventType: "APP_LAUNCHED_TEST")
+        _ = sdk!.onInitializationFinished {
+            self.sendEventBtn.isHidden = false
         }
     }
-
-
+    
+    @IBAction func sendEvent(_ sender: UIButton) {
+        sdk!.sendEvent(eventType: "APP_LAUNCHED_TEST")
+    }
+    
+    @IBAction func hide(_ sender: UIButton) {
+        sdk!.hide()
+    }
 }
