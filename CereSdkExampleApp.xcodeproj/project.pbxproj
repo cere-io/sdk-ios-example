@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4F9F7802250A300300DFBF64 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 4F9F77FE250A300200DFBF64 /* Podfile.lock */; };
+		4F9F7834250B840700DFBF64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F7833250B840700DFBF64 /* ViewController.swift */; };
+		4F9F7837250B872000DFBF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9F7839250B872000DFBF64 /* Main.storyboard */; };
 		4FF9E3A8250A2ABD00F785BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9E3A7250A2ABD00F785BE /* AppDelegate.swift */; };
 		4FF9E3AA250A2ABD00F785BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9E3A9250A2ABD00F785BE /* SceneDelegate.swift */; };
-		4FF9E3AC250A2ABD00F785BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9E3AB250A2ABD00F785BE /* ContentView.swift */; };
 		4FF9E3AE250A2ABE00F785BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9E3AD250A2ABE00F785BE /* Assets.xcassets */; };
-		4FF9E3B1250A2ABE00F785BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9E3B0250A2ABE00F785BE /* Preview Assets.xcassets */; };
 		4FF9E3B4250A2ABE00F785BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9E3B2250A2ABE00F785BE /* LaunchScreen.storyboard */; };
 		4FF9E3BC250A2AD800F785BE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9E3BB250A2AD800F785BE /* .gitignore */; };
 		4FF9E3BE250A2BA700F785BE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9E3BD250A2BA700F785BE /* Podfile */; };
@@ -22,12 +22,12 @@
 /* Begin PBXFileReference section */
 		11C564BD354CDEDAFC188C0F /* Pods_CereSdkExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CereSdkExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9F77FE250A300200DFBF64 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		4F9F7833250B840700DFBF64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F9F7838250B872000DFBF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FF9E3A4250A2ABD00F785BE /* CereSdkExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CereSdkExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF9E3A7250A2ABD00F785BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF9E3A9250A2ABD00F785BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FF9E3AB250A2ABD00F785BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FF9E3AD250A2ABE00F785BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4FF9E3B0250A2ABE00F785BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FF9E3B3250A2ABE00F785BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FF9E3B5250A2ABE00F785BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF9E3BB250A2AD800F785BE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -74,21 +74,13 @@
 			children = (
 				4FF9E3A7250A2ABD00F785BE /* AppDelegate.swift */,
 				4FF9E3A9250A2ABD00F785BE /* SceneDelegate.swift */,
-				4FF9E3AB250A2ABD00F785BE /* ContentView.swift */,
+				4F9F7833250B840700DFBF64 /* ViewController.swift */,
+				4F9F7839250B872000DFBF64 /* Main.storyboard */,
 				4FF9E3AD250A2ABE00F785BE /* Assets.xcassets */,
 				4FF9E3B2250A2ABE00F785BE /* LaunchScreen.storyboard */,
 				4FF9E3B5250A2ABE00F785BE /* Info.plist */,
-				4FF9E3AF250A2ABE00F785BE /* Preview Content */,
 			);
 			path = CereSdkExampleApp;
-			sourceTree = "<group>";
-		};
-		4FF9E3AF250A2ABE00F785BE /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4FF9E3B0250A2ABE00F785BE /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		85CABF3DA67574D94DE71F22 /* Pods */ = {
@@ -168,10 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9F7837250B872000DFBF64 /* Main.storyboard in Resources */,
 				4FF9E3BE250A2BA700F785BE /* Podfile in Resources */,
 				4FF9E3BC250A2AD800F785BE /* .gitignore in Resources */,
 				4FF9E3B4250A2ABE00F785BE /* LaunchScreen.storyboard in Resources */,
-				4FF9E3B1250A2ABE00F785BE /* Preview Assets.xcassets in Resources */,
 				4FF9E3AE250A2ABE00F785BE /* Assets.xcassets in Resources */,
 				4F9F7802250A300300DFBF64 /* Podfile.lock in Resources */,
 			);
@@ -226,15 +218,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9F7834250B840700DFBF64 /* ViewController.swift in Sources */,
 				4FF9E3A8250A2ABD00F785BE /* AppDelegate.swift in Sources */,
 				4FF9E3AA250A2ABD00F785BE /* SceneDelegate.swift in Sources */,
-				4FF9E3AC250A2ABD00F785BE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4F9F7839250B872000DFBF64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9F7838250B872000DFBF64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		4FF9E3B2250A2ABE00F785BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -355,7 +355,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -366,7 +366,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CereSdkExampleApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CereSdkExampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -386,7 +385,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CereSdkExampleApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CereSdkExampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
