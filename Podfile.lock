@@ -1,10 +1,10 @@
 PODS:
-  - CereSDK (1.0.0):
+  - CereSDK (1.1.1):
     - SwiftyJSON (= 4.3.0)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
-  - CereSDK (from `https://github.com/cere-io/sdk-ios.git`, tag `1.0.0`)
+  - CereSDK (from `https://github.com/cere-io/sdk-ios.git`, tag `1.2.1`)
   - SwiftyJSON (= 4.3.0)
 
 SPEC REPOS:
@@ -14,17 +14,17 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   CereSDK:
     :git: https://github.com/cere-io/sdk-ios.git
-    :tag: 1.0.0
+    :tag: 1.2.1
 
 CHECKOUT OPTIONS:
   CereSDK:
     :git: https://github.com/cere-io/sdk-ios.git
-    :tag: 1.0.0
+    :tag: 1.2.1
 
 SPEC CHECKSUMS:
-  CereSDK: 470bdd381921135824a67b88b23a275d9eaf1402
+  CereSDK: b06e4e81fa21036e4999889c51daf01ba7fa0d35
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 5f2101cdbc3953fc9defdd69fca77380d338bb6f
+PODFILE CHECKSUM: 59691251ef64eb1166dec65b13f78b4e711d941e
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3
