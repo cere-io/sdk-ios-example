@@ -5,11 +5,11 @@
 ```bash
 brew install cocoapods
 ```
-1. Install pods:
+2. Install pods:
 ```bash
 pod deintegrate
 pod clean
 pod setup
 pod install
 ```
-1. Start XCode and build the project
+3. Start XCode and build the project
