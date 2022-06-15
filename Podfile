@@ -7,5 +7,5 @@ target 'CereSdkExampleApp' do
 
   # Pods for CereSdkExampleApp
   pod 'SwiftyJSON', '4.3.0'
-  pod 'CereSDK', :git => 'https://github.com/cere-io/sdk-ios.git', :tag => '1.2.1'
+  pod 'CereSDK', :git => 'https://github.com/cere-io/sdk-ios.git', :tag => '1.2.2.5'
 end
