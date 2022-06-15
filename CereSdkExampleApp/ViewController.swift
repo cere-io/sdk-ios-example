@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        sdk.initSDK(appId: "2354", integrationPartnerUserId: "", controller: self, type:
-                        CereSDK.AuthType.trusted("1234567890", "112112"), environment: "dev")
+        sdk.initSDK(appId: "2096", integrationPartnerUserId: "", controller: self, type:
+                        CereSDK.AuthType.trusted("1234567890", "112112112"), environment: "stage")
 //        sdk.setDisplay(left: 5, top: 5, width: 90, height: 90)
         
         _ = sdk.onInitializationFinished {
