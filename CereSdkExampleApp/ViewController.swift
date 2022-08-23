@@ -8,6 +8,7 @@
 
 import UIKit
 import CereSDK
+import SwiftyJSON
 
 class ViewController: UIViewController {
     
@@ -20,10 +21,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        sdk.initSDK(appId: "2096", integrationPartnerUserId: "", controller: self, type:
-                        CereSDK.AuthType.trusted("1234567890", "112112112"), environment: "stage")
+        sdk.initSDK(appId: "2354", integrationPartnerUserId: "", controller: self, type:
+                        CereSDK.AuthType.trusted("1234567890", "112112112"), environment: "dev")
 //        sdk.setDisplay(left: 5, top: 5, width: 90, height: 90)
-        
         _ = sdk.onInitializationFinished {
             self.sendEventBtn.isHidden = false
             self.hasNfts.isHidden = false
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sendEvent(_ sender: UIButton) {
-        sdk.sendEvent(eventType: "LIVE_ONE_CONTEXTUAL_ENTERED")
+        sdk.sendTrustedEvent(eventType:"LIVE_ONE_CONTEXTUAL_ENTERED", payload: "{\"email\":\"email@gmail.com\"}")
     }
     
     @IBAction func sendHasNfts(_ sender: UIButton) {
